@@ -1,0 +1,34 @@
+# ── Wally packages (regenerate with: wally install) ──────────────────────────
+Packages/
+ServerPackages/
+
+# ── Rojo build output ─────────────────────────────────────────────────────────
+build/
+*.rbxlx
+
+# ── Toolchain caches (rokit / aftman install their binaries here) ─────────────
+.rokit/
+.aftman/
+
+# ── OS noise ──────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ── Editor metadata ───────────────────────────────────────────────────────────
+.obsidian/
+.vscode/
+!.vscode/settings.json
+.idea/
+*.swp
+*~
+
+# ── Temporary / log files ─────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp

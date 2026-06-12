@@ -1,0 +1,31 @@
+---
+# TestEZ standard library for Selene.
+# Declares the globals that TestEZ injects at runtime so Selene doesn't
+# flag them as undefined variables in *.spec.lua files.
+globals:
+  describe:
+    any: true
+  it:
+    any: true
+  expect:
+    any: true
+  beforeEach:
+    any: true
+  afterEach:
+    any: true
+  beforeAll:
+    any: true
+  afterAll:
+    any: true
+  SKIP:
+    any: true
+  FOCUS:
+    any: true
+  fdescribe:
+    any: true
+  fit:
+    any: true
+  xdescribe:
+    any: true
+  xit:
+    any: true
